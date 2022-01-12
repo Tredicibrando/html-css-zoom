@@ -13,13 +13,28 @@
 </head>
 <body class="flex">
     
-    <header class="debug">
+    <header>
         
-        <div class="header_wrapper">
-            microfono e webcam
+        <div id="side_menu_sx">
+            <ul>
+                <li >
+                    <i class="fas fa-microphone"></i>
+                    <a href="#">Mute</a>
+                </li>
+                <li class="chevron_navbar">
+                    <i class="fas fa-chevron-up"></i>
+                </li>
+                <li>
+                    <i class="fas fa-video"></i>
+                    <a href="#">Stop Video</a>
+                </li>
+                <li class="chevron_navbar">
+                    <i class="fas fa-chevron-up"></i>
+                </li>
+            </ul>
         </div>
         
-        <div class="header_wrapper">
+        <div class="navbar_centrale">
             <nav>
                 <ul>
                     <li>
@@ -34,11 +49,11 @@
                         <i class="fas fa-chart-bar"></i>
                         <a href="#">Polling</a>
                     </li>
-                    <li class=".arrow">
+                    <li>
                         <i class="fas fa-share-square"></i>
                         <a href="#">Share Screen</a>
                     </li>
-                    <li>
+                    <li class="chevron_navbar">
                         <i class="fas fa-chevron-up"></i>
                     </li>
                     <li>
@@ -61,14 +76,30 @@
             </nav>
         </div>
         
-        <div class="header_wrapper">   
-            quit meeting
+        <div id="side_menu_dx">   
+            <div class="bg--grey">
+                <a href="#">End Meeting</a>
+            </div>    
+            
         </div>
 
     </header>
 
-    <main class="debug_01">
-       
+    <main>
+       <div class="main_wrapper">
+            <div class="cards_wrapper">
+                <!-- inizio card -->
+                <div class="card_body">
+                    <picture>
+                            <img src="https://picsum.photos/200/300" alt="">
+                    </picture>
+                    <div>
+
+                    </div>
+                </div>
+                <!-- fine card -->
+            </div>
+       </div>
     </main>
 </body>
 </html>
