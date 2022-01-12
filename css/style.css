@@ -182,9 +182,13 @@ nav ul li:nth-child(4) i{
     padding: 25px;
 }
 
-.cards_wrapper{
-    flex-grow: 1; 
+.cards_wrapper{ 
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card_body{
